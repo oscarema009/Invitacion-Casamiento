@@ -1,0 +1,54 @@
+.header {
+  position: relative;
+  height: 100vh;
+  background-image: url('../assets/00042.jpg'); /* Asegúrate de usar la ruta correcta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  
+  color: #fff;
+  text-align: center;
+}
+
+
+
+.header-blessing {
+  font-size: 3rem;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.header-blessing-sub {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.header-wedding {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+
+.header-names {
+  font-size: 6rem;
+  font-weight: 300;
+  font-family: 'Palace Script MT'; /* Cambia a una fuente cursiva si deseas un efecto más estilizado */
+  margin-bottom: 5rem;
+}
+
+.header-date {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.header-decorator {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+}

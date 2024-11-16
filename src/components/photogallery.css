@@ -1,0 +1,38 @@
+/* src/components/PhotoGallery.css */
+.photo-gallery {
+    padding: 50px 20px;
+     /* Fondo claro */
+    text-align: center;
+  }
+  
+  .gallery-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Complex';
+    margin-bottom: 20px;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+  }
+  
+  .gallery-item:hover .gallery-image {
+    transform: scale(1.05);
+  }
+  

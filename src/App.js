@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+// src/App.js
+import React from 'react';
+import Header from './components/Header2';
+import WelcomeSection from './components/WelcomeSection';
+import EventDetails from './components/EventDetails';
+import PhotoGallery from './components/PhotoGallery';
+import GiftSection from './components/GiftSection';
+import RSVP from './components/RSVP';
+import Footer from './components/Footer';
+import DressCode from './components/DressCode';
+import SharePhotos from './components/SharePhotos';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <WelcomeSection />
+      <EventDetails />
+      <PhotoGallery />
+      <SharePhotos/>
+      <RSVP />
+      <DressCode />
+      <GiftSection />
+      <Footer />
+
+      {/* Otros componentes irán aquí */}
     </div>
   );
 }

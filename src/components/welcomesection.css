@@ -1,0 +1,48 @@
+/* src/components/WelcomeSection.css */
+.welcome-section {
+    padding: 50px 20px;
+    text-align: center;
+     /* Color de fondo suave */
+  }
+  
+  .welcome-title {
+    font-size: 2.5rem;
+    font-family: 'Complex';
+    margin: 0 0 20px;
+  }
+  
+  .welcome-message {
+    font-size: 1.4rem;
+    font-family: 'Bell MT';
+    margin: 0 0 40px;
+    color: #555;
+  }
+  
+  .couple-photos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .photo-container {
+    text-align: center;
+    font-family: 'Bell MT';
+  }
+  
+  .photo {
+    width: 500px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 10%;
+    box-shadow: 0 10px 10px rgba(31, 12, 174, 0.297);
+    border: rgba(31, 12, 174, 0.114);
+  }
+  
+  .photo-caption {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #e91e63;
+    font-size: 4rem;
+    font-family: 'Palace Script MT';
+  }
+  

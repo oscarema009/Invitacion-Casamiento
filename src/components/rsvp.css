@@ -1,0 +1,85 @@
+/* Contenedor principal para la sección RSVP */
+.rsvp-wrapper {
+     /* Fondo rosado claro */
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Contenedor del título y subtítulo */
+  .rsvp-header {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Estilos para el título */
+  .rsvp-title {
+    font-size: 2.3rem;
+    color: #333;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+    font-family: 'Complex';
+  }
+  
+  /* Estilos para el subtítulo */
+  .rsvp-subtitle {
+    font-size: 1rem;
+    color: #666;
+    font-weight: normal;
+    line-height: 1.5;
+    font-family: 'Complex';
+    font-weight: bold;
+  }
+  
+  /* Contenedor del formulario */
+  .rsvp-section {
+    background-color: #fff; /* Fondo blanco del formulario */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto; /* Centrado */
+  }
+  
+  /* Estilos de las etiquetas del formulario */
+  .rsvp-form label {
+    display: block;
+    margin: 1rem 0;
+    color: #5a5a5a;
+    font-size: 1rem;
+  }
+  
+  /* Estilos de los inputs de texto y el área de mensaje */
+  .rsvp-form input[type="text"],
+  .rsvp-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff3f6; /* Fondo de los campos de entrada */
+  }
+  
+  /* Opciones de asistencia */
+  .attendance-options label {
+    margin-right: 1rem;
+    font-size: 1rem;
+  }
+  
+  /* Botón de envío */
+  .rsvp-button {
+    background-color: #f76c6c;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rsvp-button:hover {
+    background-color: #f55353;
+  }
+  

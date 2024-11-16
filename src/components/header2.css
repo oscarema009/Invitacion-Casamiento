@@ -1,0 +1,127 @@
+/* Estilo general del encabezado */
+.header {
+    height: 100vh;
+    background-image: url('../assets/3.jpg'); /* Ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4A4A4A;
+    overflow: hidden;
+    transition: opacity 0.5s ease;
+  }
+  
+  /* Contenedor de contenido centrado */
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+    padding: 2rem;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    animation: fadeInContent 2s ease forwards;
+  }
+  
+  /* Subtítulo centrado */
+  .header-subtitle {
+    font-weight: bold;
+    font-family: 'Complex';
+    font-size: 1rem;
+    text-align: center;
+    width: 80%;
+    max-width: 200px;
+    margin: 0 auto 1rem;
+    padding: 0.1rem 0;
+    animation: fadeInUp 2s ease forwards;
+  }
+  
+  .maquina-escribir {
+    position: relative;
+  }
+  
+  .maquina-escribir::after {
+    content: "";
+    border-left: 3px solid black;
+    background: white;
+    right: 0%;
+    height: 100%;
+    position: absolute;
+    animation: maquinaescribir 2s infinite alternate steps(14);
+  }
+  
+  /* Títulos y otros textos */
+  .header-title,
+  .header-message,
+  .header-address,
+  .header-reception {
+    margin: 1rem 0;
+    opacity: 0;
+    animation: fadeInUp 1.5s ease forwards;
+    font-family: 'Complex';
+  }
+  
+  .header-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4A4A4A;
+  }
+  
+  /* Imagen animada con entrada de izquierda a derecha */
+  .imagen-animada {
+    width: 800px;
+    height: auto;
+    position: relative;
+    opacity: 0;
+    animation: slideInLeft 2s ease forwards 1s; /* Aparición con retraso */
+  }
+  
+  /* Animaciones */
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInContent {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* Animación de máquina de escribir */
+  @keyframes maquinaescribir {
+    from {
+      width: 100%;
+    }
+    to {
+      width: 0;
+    }
+  }
+  

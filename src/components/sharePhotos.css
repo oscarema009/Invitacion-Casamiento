@@ -1,0 +1,51 @@
+/* Estilos generales de la sección */
+.share-photos-section {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: white; /* Color del texto */
+    background-color: #e6b8c2; /* Fondo oscuro */
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  .share-photos-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Título */
+  .share-photos-title {
+    font-family: 'Complex';
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Texto de la sección */
+  .share-photos-text {
+    font-size: 1.3rem;
+    font-family: 'Complex';
+    margin-bottom: 2rem;
+  }
+  
+  /* Enlace de Instagram */
+  .instagram-link {
+    display: inline-block;
+  }
+  
+  .instagram-icon {
+    width: 80px; /* Tamaño del ícono */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    color: black;
+  }
+  
+  .instagram-icon:hover {
+    transform: scale(1.2); /* Agranda el ícono al pasar el cursor */
+  }
+  
+  .instagram-link:hover .instagram-icon {
+    cursor: pointer; /* Cambia a "manito" */
+  }
+  

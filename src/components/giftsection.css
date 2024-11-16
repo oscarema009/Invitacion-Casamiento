@@ -1,0 +1,87 @@
+/* src/components/GiftSection.css */
+.gift-section {
+    padding: 50px 20px;
+     /* Fondo claro */
+    text-align: center;
+  }
+  
+  .header-title {
+    font-size: 2.5rem;
+    font-family: 'Complex'; /* Fuente decorativa */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+  
+  .header-icon {
+    color: #e91e63;
+    font-size: 5rem; /* Tamaño del ícono decorativo */
+  }
+  
+  .gift-description {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #7b7b7b;
+    margin-bottom: 30px;
+    font-family: 'Complex'
+  }
+  
+  .gift-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .gift-note {
+    font-size: 0.9rem;
+    color: #a3a3a3;
+    margin-bottom: 20px;
+  }
+  
+  .account-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .account-name {
+    font-weight: bold;
+    color: #e91e63;
+  }
+  
+  .account-bank {
+    font-weight: bold;
+    color: #007bff;
+    margin-left: 5px;
+  }
+  
+  .account-number-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .account-number {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .copy-button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .copy-button:hover {
+    color: #0056b3;
+  }
+  
