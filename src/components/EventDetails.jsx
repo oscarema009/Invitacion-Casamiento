@@ -31,13 +31,21 @@ const EventDetails = () => {
     return () => clearInterval(interval);
   }, []);
 
+  // Enlaces específicos de Google Maps
+  const ceremonyLocation =
+    'https://www.google.com/maps?q=Iglesia+San+Francisco,+Corrientes';
+  const receptionLocation =
+    'https://www.google.com/maps?q=Salón+de+Regatas,+Corrientes';
+
   return (
     <section className="event-details">
       <h2 className="event-title">Llego el Gran Día</h2>
       <p className="event-subtitle">
-      Después de viajar de norte a sur, de compartir experiencias y de descubrir mil cosas juntos, comenzamos una nueva aventura y no sería posible celebrar nuestra boda sin la compañía de nuestra familia y nuestros mejores amigos . ¡No podes faltar!
+        Después de viajar de norte a sur, de compartir experiencias y de descubrir mil cosas juntos,
+        comenzamos una nueva aventura y no sería posible celebrar nuestra boda sin la compañía de
+        nuestra familia y nuestros mejores amigos. ¡No podes faltar!
       </p>
-      
+
       <h3 className="event-date">21 Diciembre 2024</h3>
 
       <div className="countdown">
@@ -60,17 +68,30 @@ const EventDetails = () => {
       </div>
 
       <div className="event-info">
+        {/* Información de la ceremonia */}
         <div className="event-item ceremony">
           <span className="event-icon"><i className="fa-solid fa-church"></i></span>
           <h3>Ceremonia de Boda</h3>
           <p>22:00 hs en la Iglesia San Francisco, Corrientes.</p>
-          <button className="map-button">Abrir Mapa</button>
+          <button
+            className="map-button"
+            onClick={() => window.open(ceremonyLocation, '_blank')}
+          >
+            Abrir Mapa
+          </button>
         </div>
+
+        {/* Información de la recepción */}
         <div className="event-item reception">
           <span className="event-icon"><i className="fas fa-glass-cheers"></i></span>
           <h3>Recepción</h3>
           <p>22:45 hs en salón de Regatas, Corrientes.</p>
-          <button className="map-button">Abrir Mapa</button>
+          <button
+            className="map-button"
+            onClick={() => window.open(receptionLocation, '_blank')}
+          >
+            Abrir Mapa
+          </button>
         </div>
       </div>
     </section>
