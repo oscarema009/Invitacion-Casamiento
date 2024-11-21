@@ -33,9 +33,9 @@ const SharePhotos = () => {
   return (
     <section className="share-photos-section" ref={sharePhotosRef}>
       <h2 className="share-photos-title">¡Comparte tus mejores momentos!</h2>
-      <p className="share-photos-text">Sube tus fotos con el hashtag <strong>#BodaDyO</strong> o etiquétanos en Instagram.</p>
+      <p className="share-photos-text">Sube tus fotos con el hashtag <strong>#boda.dyo</strong> o etiquétanos en Instagram.</p>
       <a 
-        href="https://www.instagram.com/tu_cuenta_de_instagram_de_boda" 
+        href="https://www.instagram.com/boda.dyo/profilecard/?igsh=MWdzczJ6aGI0ZDkwbQ==" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="instagram-link"

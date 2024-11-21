@@ -33,9 +33,9 @@ const EventDetails = () => {
 
   // Enlaces específicos de Google Maps
   const ceremonyLocation =
-    'https://www.google.com/maps?q=Iglesia+San+Francisco,+Corrientes';
+    'https://maps.app.goo.gl/gGsPWybe5acKq1YA9';
   const receptionLocation =
-    'https://www.google.com/maps?q=Salón+de+Regatas,+Corrientes';
+    'https://maps.app.goo.gl/RR5ZWS1rX8UwGJyW7';
 
   return (
     <section className="event-details">

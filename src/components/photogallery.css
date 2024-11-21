@@ -53,8 +53,8 @@
 }
 
 .carousel-image {
-  width: 35rem;
-  height: 40rem;
+  width: 80vw;
+  height: 105vw;
   object-fit: cover;
   transition: transform 1s ease;
   border-radius: 10px;
