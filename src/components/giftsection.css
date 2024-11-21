@@ -55,12 +55,14 @@
   .account-name {
     font-weight: bold;
     color: #e91e63;
+    font-size: 0.8rem;
   }
   
   .account-bank {
     font-weight: bold;
     color: #007bff;
     margin-left: 5px;
+    font-size: 0.8rem;
   }
   
   .account-number-container {
@@ -71,6 +73,7 @@
   .account-number {
     font-weight: bold;
     margin-right: 10px;
+    font-size: 0.8rem;
   }
   
   .copy-button {

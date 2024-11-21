@@ -5,15 +5,11 @@ import './giftsection.css';
 
 const GiftSection = () => {
   const accounts = [
+    
     {
-      name: 'Daiana Vallejos',
-      bank: 'Mercado Pago',
-      accountNumber: '009-0222 2444 21',
-    },
-    {
-      name: 'Oscar Velazquez',
-      bank: 'Mercado Pago',
-      accountNumber: '009-0222 2444 21',
+      name: 'Oscar Emmanuel Velazquez',
+      bank: 'Personal Pay',
+      accountNumber: 'boda24.dyo',
     },
   ];
 
