@@ -21,7 +21,7 @@
   .couple-photos {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 1rem;
   }
   
   .photo-container {
@@ -30,8 +30,8 @@
   }
   
   .photo {
-    width: 500px;
-    height: 550px;
+    width: 1rem;
+    height: 2rem;
     object-fit: cover;
     border-radius: 10%;
     box-shadow: 0 10px 10px rgba(31, 12, 174, 0.297);

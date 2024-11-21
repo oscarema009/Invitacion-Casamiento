@@ -1,5 +1,5 @@
 // src/App.js
-import React from 'react';
+import React, { useState } from 'react';
 import Header from './components/Header2';
 import WelcomeSection from './components/WelcomeSection';
 import EventDetails from './components/EventDetails';
@@ -9,16 +9,20 @@ import RSVP from './components/RSVP';
 import Footer from './components/Footer';
 import DressCode from './components/DressCode';
 import SharePhotos from './components/SharePhotos';
+import BackgroundMusic from './components/BackgroundMusic';
 import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
+      <BackgroundMusic />
       <Header />
       <WelcomeSection />
       <EventDetails />
       <PhotoGallery />
-      <SharePhotos/>
+      <SharePhotos />
       <RSVP />
       <DressCode />
       <GiftSection />
