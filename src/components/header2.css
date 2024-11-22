@@ -62,6 +62,7 @@
   .header-message,
   .header-address,
   .header-reception {
+    margin: 0.5 rem 0;
     opacity: 0;
     animation: fadeInUp 1.5s ease forwards;
     font-family: 'Complex';
