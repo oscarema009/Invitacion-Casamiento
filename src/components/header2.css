@@ -73,6 +73,11 @@
     font-weight: bold;
     
   }
+
+  .header-address,
+  .header-message {
+    font-size: 1.2rem;
+  }
   
   /* Imagen animada con entrada de izquierda a derecha */
   .imagen-animada {

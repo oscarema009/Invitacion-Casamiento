@@ -28,7 +28,7 @@ const GiftSection = () => {
       Tres cosas no pueden faltar en nuestras vidas: SALUD, DINERO y AMOR... Por suerte estamos sanos y muy enamorados, asi que podes ayudarnos con lo que nos falta! CBU bla bla..      </p>
       <div className="gift-container">
         <h3>Datos Bancarios</h3>
-        <p className="gift-note">Nota: Haga clic para copiar el número de cuenta</p>
+        <p className="gift-note">Nota: Haga clic para copiar el alias de la cuenta</p>
         {accounts.map((account, index) => (
           <div key={index} className="account-item">
             <span className="account-name">{account.name}</span>

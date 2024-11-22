@@ -9,7 +9,7 @@ const WelcomeSection = () => {
     <section className="welcome-section">
       <h2 className="welcome-title">¡NOS CASAMOS!</h2>
       <p className="welcome-message">
-        Nos encantaría que nos acompañaran en este día tan especial. Su presencia es el mejor regalo que podríamos recibir.
+        Nos encantaría que nos acompañen en este día tan especial. Su presencia es el mejor regalo que podríamos recibir.
       </p>
       <div className="couple-photos">
         <div className="photo-container">

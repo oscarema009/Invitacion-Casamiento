@@ -4,7 +4,7 @@ import './photogallery.css'; // Asegúrate de que tienes el archivo de estilos C
 import img1 from "../assets/00004.jpg";
 import img2 from "../assets/00020.jpg";
 import img3 from "../assets/00038.jpg";
-import img4 from "../assets/00043.jpg";
+import img4 from "../assets/00100.jpg";
 import img5 from "../assets/00035.jpg";
 import img6 from "../assets/00060.jpg";
 import img7 from "../assets/00047.jpg";
