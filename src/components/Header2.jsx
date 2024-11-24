@@ -16,7 +16,7 @@ const Header = () => {
         <h1 className="header-title">Day & Oscar</h1>
         <p className="header-message">21-12-2024</p>
         <p className="header-address">El amor nunca se da por vencido, jamás pierde la fe, siempre tiene esperanzas y se mantiene firme en toda circunstancia.
-          1 corintios 13:7</p>
+          1 Corintios 13:7</p>
         <p className="header-reception">❧</p>
       </div>
     </header>

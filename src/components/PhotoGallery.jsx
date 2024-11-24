@@ -58,7 +58,7 @@ const PhotoGallery = () => {
 
   return (
     <section className="photo-gallery">
-      <h2 className="gallery-title">Galería de Fotos</h2>
+      <h2 className="gallery-title">Retratos de Nuestro Amor</h2>
 
       {/* Carrusel */}
       <div className="carousel-container">

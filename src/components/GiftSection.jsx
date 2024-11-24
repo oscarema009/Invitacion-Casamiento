@@ -25,7 +25,7 @@ const GiftSection = () => {
 
         </h1>
       <p className="gift-description">
-      Tres cosas no pueden faltar en nuestras vidas: SALUD, DINERO y AMOR... Por suerte estamos sanos y muy enamorados, asi que podes ayudarnos con lo que nos falta! CBU bla bla..      </p>
+      Tres cosas no pueden faltar en nuestras vidas: SALUD, DINERO y AMOR... Por suerte estamos sanos y muy enamorados, asi que podes ayudarnos con lo que nos falta! Si deseas colaborar con nuestra luna de miel te compartimos nuestro alias.</p>
       <div className="gift-container">
         <h3>Datos Bancarios</h3>
         <p className="gift-note">Nota: Haga clic para copiar el alias de la cuenta</p>

@@ -84,7 +84,7 @@ const EventDetails = () => {
         {/* Información de la recepción */}
         <div className="event-item reception">
           <span className="event-icon"><i className="fas fa-glass-cheers"></i></span>
-          <h3>Recepción</h3>
+          <h3>Fiesta</h3>
           <p>22:45 hs en salón de Regatas, Corrientes.</p>
           <button
             className="map-button"
