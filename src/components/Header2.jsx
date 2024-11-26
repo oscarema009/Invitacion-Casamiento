@@ -10,7 +10,7 @@ const Header = () => {
       <div className="header-overlay"></div>
       <div className="header-content">
         <div className="header-subtitle">
-          <p className="maquina-escribir">!SAVE THE DATE!</p>
+          <p className="maquina-escribir">SAVE THE DATE!</p>
         </div>
         <img src={imagenAnimada} alt="Decoración" className="imagen-animada" />
         <h1 className="header-title">Day & Oscar</h1>
